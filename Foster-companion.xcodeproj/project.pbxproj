@@ -14,6 +14,7 @@
 		353D139A242B012F00D783C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353D1398242B012F00D783C8 /* LaunchScreen.storyboard */; };
 		353D13A5242B012F00D783C8 /* Foster_companionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353D13A4242B012F00D783C8 /* Foster_companionTests.swift */; };
 		353D13B0242B012F00D783C8 /* Foster_companionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353D13AF242B012F00D783C8 /* Foster_companionUITests.swift */; };
+		38FF5E0FF6926CCD7406F660 /* Pods_Foster_companion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA8500CBEF998C82DDDE9C1 /* Pods_Foster_companion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AA8500CBEF998C82DDDE9C1 /* Pods_Foster_companion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foster_companion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C76343F45F7A5C47242D93F /* Pods-Foster-companion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foster-companion.release.xcconfig"; path = "Target Support Files/Pods-Foster-companion/Pods-Foster-companion.release.xcconfig"; sourceTree = "<group>"; };
 		353D138A242B012D00D783C8 /* Foster-companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foster-companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		353D138D242B012D00D783C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		353D1391242B012D00D783C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		353D13AB242B012F00D783C8 /* Foster-companionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foster-companionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		353D13AF242B012F00D783C8 /* Foster_companionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foster_companionUITests.swift; sourceTree = "<group>"; };
 		353D13B1242B012F00D783C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49EF12329CFF9BA270B0202 /* Pods-Foster-companion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foster-companion.debug.xcconfig"; path = "Target Support Files/Pods-Foster-companion/Pods-Foster-companion.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38FF5E0FF6926CCD7406F660 /* Pods_Foster_companion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				353D13A3242B012F00D783C8 /* Foster-companionTests */,
 				353D13AE242B012F00D783C8 /* Foster-companionUITests */,
 				353D138B242B012D00D783C8 /* Products */,
+				500E652CC958D8A516BA5BEE /* Pods */,
+				422EB462B962AC116E45B5D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,24 @@
 			path = "Foster-companionUITests";
 			sourceTree = "<group>";
 		};
+		422EB462B962AC116E45B5D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AA8500CBEF998C82DDDE9C1 /* Pods_Foster_companion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		500E652CC958D8A516BA5BEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C49EF12329CFF9BA270B0202 /* Pods-Foster-companion.debug.xcconfig */,
+				2C76343F45F7A5C47242D93F /* Pods-Foster-companion.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 353D13B4242B012F00D783C8 /* Build configuration list for PBXNativeTarget "Foster-companion" */;
 			buildPhases = (
+				CCC9FE32D4CD3AA83ECA1D3B /* [CP] Check Pods Manifest.lock */,
 				353D1386242B012D00D783C8 /* Sources */,
 				353D1387242B012D00D783C8 /* Frameworks */,
 				353D1388242B012D00D783C8 /* Resources */,
+				8BCEF4137D1002D6B06235F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BCEF4137D1002D6B06235F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foster-companion/Pods-Foster-companion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foster-companion/Pods-Foster-companion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foster-companion/Pods-Foster-companion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCC9FE32D4CD3AA83ECA1D3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foster-companion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		353D1386242B012D00D783C8 /* Sources */ = {
@@ -428,6 +497,7 @@
 		};
 		353D13B5242B012F00D783C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49EF12329CFF9BA270B0202 /* Pods-Foster-companion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +518,7 @@
 		};
 		353D13B6242B012F00D783C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C76343F45F7A5C47242D93F /* Pods-Foster-companion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

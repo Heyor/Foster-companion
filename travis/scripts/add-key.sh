@@ -21,4 +21,4 @@ echo " ****** "
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
 cp "./travis/certificates/foster_companion_ad_hoc.mobileprovision" ~/Library/MobileDevice/Provisioning\ Profiles/
 
-security set-key-partition-list -S apple-tool:,apple: -k "travis" ~/Library/Keychains/ios-build.keychain-db
+#security set-key-partition-list -S apple-tool:,apple: -k "travis" ~/Library/Keychains/ios-build.keychain-db

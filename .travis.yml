@@ -2,3 +2,4 @@ language: objective-c
 osx_image: xcode11.3
 xcode_project: Foster-companion.xcodeproj
 xcode_scheme: Foster-companion
+xcode_destination: platform=iOS Simulator,OS=13.3,name=iPhone 11 Pro Max

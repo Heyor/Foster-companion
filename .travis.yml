@@ -6,15 +6,16 @@ xcode_workspace: Foster-companion.xcworkspace
 xcode_scheme: Foster-companion
 xcode_destination: platform=iOS Simulator,OS=13.0,name=iPhone 11 Pro Max
 env:
-    global:
-    - APPNAME=foster_companion
-    - PROFILE_NAME=foster_companion_ad_hoc
-    - 'DEVELOPER_NAME="Apple Distribution: Nanjing Zhonghong Information TechnologyCo., Ltd (HTH43282WL)"'
-    - secure: Ut0ekvQjN11QoD+5u8v2kowdVS3dHXRmY56fTG7mokugwlPCfdl0WjKvS/9S6AMlEm4m6FsV3KJteQ4KIeXtMoetoiNqZx1pPiXCOcdjnnmkA6cVfj8fexq9jGAr7MrKCqRdhmmdZuwrypcs2E6WAGIlezummfEpxv5dKCj3vjBtetRkPzSUNhABRmIQOh9L6vz22YSjtChiGDJ4bk9n+6VRFtJjwjBZQ1E+Pf5R+P0Z1SZX0Wmr5be/TTXdfFX4NcxRes/tgeGhFCYSN7mEtb8AHKd1aqr2IGcMwCuOvzESEk4lF10OUhfSiLM4u0e5aaItz3ePQgM7wr8m1luyPrqL9hW0M8XJ5q5g0R5EovfbdyNmQ558LZgsiOLui/l2du89pVtmh6GQ0R4xoS+smEQacZ3rh9ZTvxh1pLU3ZxQDua2fpQD2J5Y/7yYfS9ppfqp7xp0JE0/HvLNZIqEkB2h6ohHeg1fnLjpB49+/b6qmsQ403OEGk9bIUsgtNJMXik9PPxTSJjSpJ/oohmZflQku/Hnz145XV7JmhC1ZL0gWkGDArM3qEOHbmxMFCWUFuMxmjmGV9Q1qY7eASPnQ5yiqofUk8LOBe53IhIX5FSBgLEVwhZJ1oamUL4pI9lm3tKmOQKPpYHn8fD9tns9W8yGZXdKantLAgc042h7Yml4=
+  global:
+  - APPNAME="foster_companion"
+  - 'DEVELOPER_NAME="Apple Distribution: Nanjing Zhonghong Information TechnologyCo.,
+    Ltd (HTH43282WL)"'
+  - PROFILE_NAME="foster_companion_ad_hoc"
+  - secure: sVUfu5ZiaOySyMLZTDXiW+sf/ptdBMmKNqhugVeI2ofmx1N81flYia+kctIOye3n4s+Ty8WorEnHtozmA8KJo9l9ZlPBTcgqYs+ANfqr+I9AMCqc7AUbuFNTX/rwV1KWey09vHVTD7yl+x/M8lskvCZKIgTJ6zUi/R5S1EXGtkQUUcR7A7Hoajwkjk/v7mQNdISMtDI15R00jsiyltDsqqWTDco/SaSGzVZc+jAYKLuwRO8pPfx2MUG3q+Gfhne3kuzx0YE2ayocWoGanmZnl7wsdl/3D2Xe11/b+O9lYRxi1qVaYyQbAVG/PDswt1Qf2DXV2bECz4l/7F2MkEZ3c+5fCfWAd0bhco0sWRQnpxQ2M99Has4d1rYzAB2F8FxoxCo2lkKh88ZEawup0rVgQkaWJdOuFK4KItkV/OHMPpNOGP1QSzbHE015uXCj6I7Lm+s6PXYSuUBXDZJcga9ZR4HcsN/ftaeqegsTfS+lMv1c/jFCNjJpcN200WE6j7bU3qnFzWGjjiJ83WqbL828uZXZWuudcJKkse6ESAsu+Yh9Y716zbfRlyejlO9Kl4snmumQgl8hGYWhyVn2leDjyHXlAEhewd+4yLv8uLrXiaMB4tOs7pP/yQ0UmPJl8nd1Pf43xfayZZhstZijgxHi3X5aZWV3SPUGaIVCanzRgeM=
 before_install:
 - cd $TRAVIS_BUILD_DIR
 - wget -c https://raw.githubusercontent.com/Pgyer/TravisFile/master/pgyer_upload.sh
-    -O pgyer_upload.sh
+  -O pgyer_upload.sh
 - chmod +x travis/scripts/add-key.sh
 - chmod +x travis/scripts/build.sh
 - chmod +x travis/scripts/remove-key.sh

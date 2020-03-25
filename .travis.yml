@@ -9,8 +9,7 @@ env:
     global:
     - APPNAME=foster_companion
     - PROFILE_NAME=foster_companion_ad_hoc
-    - 'DEVELOPER_NAME="Apple Distribution: Nanjing Zhonghong Information Technology
-    Co., Ltd (HTH43282WL)"'
+    - 'DEVELOPER_NAME="Apple Distribution: Nanjing Zhonghong Information TechnologyCo., Ltd (HTH43282WL)"'
     - secure: Ut0ekvQjN11QoD+5u8v2kowdVS3dHXRmY56fTG7mokugwlPCfdl0WjKvS/9S6AMlEm4m6FsV3KJteQ4KIeXtMoetoiNqZx1pPiXCOcdjnnmkA6cVfj8fexq9jGAr7MrKCqRdhmmdZuwrypcs2E6WAGIlezummfEpxv5dKCj3vjBtetRkPzSUNhABRmIQOh9L6vz22YSjtChiGDJ4bk9n+6VRFtJjwjBZQ1E+Pf5R+P0Z1SZX0Wmr5be/TTXdfFX4NcxRes/tgeGhFCYSN7mEtb8AHKd1aqr2IGcMwCuOvzESEk4lF10OUhfSiLM4u0e5aaItz3ePQgM7wr8m1luyPrqL9hW0M8XJ5q5g0R5EovfbdyNmQ558LZgsiOLui/l2du89pVtmh6GQ0R4xoS+smEQacZ3rh9ZTvxh1pLU3ZxQDua2fpQD2J5Y/7yYfS9ppfqp7xp0JE0/HvLNZIqEkB2h6ohHeg1fnLjpB49+/b6qmsQ403OEGk9bIUsgtNJMXik9PPxTSJjSpJ/oohmZflQku/Hnz145XV7JmhC1ZL0gWkGDArM3qEOHbmxMFCWUFuMxmjmGV9Q1qY7eASPnQ5yiqofUk8LOBe53IhIX5FSBgLEVwhZJ1oamUL4pI9lm3tKmOQKPpYHn8fD9tns9W8yGZXdKantLAgc042h7Yml4=
 before_install:
 - cd $TRAVIS_BUILD_DIR

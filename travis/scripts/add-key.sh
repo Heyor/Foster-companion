@@ -5,7 +5,7 @@ security default-keychain -d user -s ios-build.keychain
 security unlock-keychain -p travis ios-build.keychain
 security set-keychain-settings -t 3600 -l ~/Library/Keychains/ios-build.keychain
 
-security import ./travis/certificates/distribution.cer -k ~/Library/Keychains/ios-build.keychain -T /usr/bin/codesign
+security import ./travis/certificates/AppleWWDRCA.cer -k ~/Library/Keychains/ios-build.keychain -T /usr/bin/codesign
 security import ./travis/certificates/distribution.cer -k ~/Library/Keychains/ios-build.keychain -T /usr/bin/codesign
 security import ./travis/certificates/distribution.p12 -k ~/Library/Keychains/ios-build.keychain -P $KEY_PASSWORD -A
 
@@ -19,3 +19,5 @@ echo " ****** "
 
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
 cp "./travis/certificates/foster_companion_ad_hoc.mobileprovision" ~/Library/MobileDevice/Provisioning\ Profiles/
+
+security set-key-partition-list -S apple-tool:,apple: -k "travis" ~/Library/Keychains/ios-build.keychain-db

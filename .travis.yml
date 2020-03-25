@@ -1,2 +1,3 @@
 language: swift
 osx_image: xcode11.3
+xcode_project: Foster-companion.xcodeproj

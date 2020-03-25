@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		353D138E242B012D00D783C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353D138D242B012D00D783C8 /* AppDelegate.swift */; };
-		353D1390242B012D00D783C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353D138F242B012D00D783C8 /* SceneDelegate.swift */; };
 		353D1392242B012D00D783C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353D1391242B012D00D783C8 /* ViewController.swift */; };
 		353D1395242B012D00D783C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353D1393242B012D00D783C8 /* Main.storyboard */; };
 		353D1397242B012F00D783C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353D1396242B012F00D783C8 /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		353D138A242B012D00D783C8 /* Foster-companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foster-companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		353D138D242B012D00D783C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		353D138F242B012D00D783C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		353D1391242B012D00D783C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		353D1394242B012D00D783C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		353D1396242B012F00D783C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				353D138D242B012D00D783C8 /* AppDelegate.swift */,
-				353D138F242B012D00D783C8 /* SceneDelegate.swift */,
 				353D1391242B012D00D783C8 /* ViewController.swift */,
 				353D1393242B012D00D783C8 /* Main.storyboard */,
 				353D1396242B012F00D783C8 /* Assets.xcassets */,
@@ -261,7 +258,6 @@
 			files = (
 				353D1392242B012D00D783C8 /* ViewController.swift in Sources */,
 				353D138E242B012D00D783C8 /* AppDelegate.swift in Sources */,
-				353D1390242B012D00D783C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +434,7 @@
 				DEVELOPMENT_TEAM = D2S476E3JN;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Foster-companion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +454,7 @@
 				DEVELOPMENT_TEAM = D2S476E3JN;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Foster-companion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

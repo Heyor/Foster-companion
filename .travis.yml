@@ -3,7 +3,7 @@ cache: cocoapods
 podfile: Podfile
 osx_image: xcode11.3
 #xcode_project: Foster-companion.xcodeproj
-#xcode_scheme: Foster-companion
+xcode_scheme: Foster-companion
 #xcode_destination: platform=iOS Simulator,OS=13.0,name=iPhone 11 Pro Max
 env:
   global:

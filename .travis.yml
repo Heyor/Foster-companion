@@ -18,7 +18,7 @@ before_install:
 - cd $TRAVIS_BUILD_DIR
 - wget -c https://raw.githubusercontent.com/Pgyer/TravisFile/master/pgyer_upload.sh
   -O pgyer_upload.sh
-- tar xvf certificates.tar -C ./travis/certificates
+#- tar xvf certificates.tar -C ./travis/certificates
 - chmod +x scripts/travis/add-key.sh
 before_script:
 - "./travis/scripts/add-key.sh"
